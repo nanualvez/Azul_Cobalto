@@ -1,0 +1,90 @@
+/* generales */
+
+html{
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+/* index */
+
+.header{
+	background-color: #ffffff;
+	height: 40px;
+}
+
+.contenido{
+	height: 100%;
+}
+
+.fondoIndex{
+	background-image: url(../Img/fondoIndex.jpg);
+	background-size: cover;
+}
+
+.logoGif{
+	width: 600px;
+	float: right;
+	margin-left: 1000px;
+    margin-top: 150px;
+	margin-right: 100px;
+}
+
+@media screen and (max-width: 768px) {
+	.logoGif{
+		width: 400px;
+		float: center;
+		margin-left: 1000px;
+		margin-top: 250px;
+		margin-right: 100px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.logoGif{
+		width: 350px;
+		float: center;
+		margin-left: 1000px;
+		margin-top: 60px;
+		margin-right: 70px;
+	}
+}
+
+/*Sobre Nosotras*/
+
+#sobreNosotras{
+	margin: 50px 00 20px 00;
+}
+
+.tituloNosotras{
+	font-family: 'Space Mono', monospace;
+	font-size: 60px;
+	font-weight: 700;
+	color: #E5D1E6;
+}
+
+.imagenNosotras{
+	width: 80%;
+}
+
+.textoNosotras{
+	font-family: 'Space Mono', monospace;
+	font-size: 14px;
+	font-weight: 400;
+	color: #49479D;
+}
+
